@@ -1,12 +1,11 @@
 h1 {
+    position:relative;
     text-align: center;
     font-family: "despina-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 70px;
-    color: #D9326F;
-    -webkit-text-stroke: white;
-    -webkit-text-stroke-width: 2px;
+    color: white;
 }
 
 .flex-container {
@@ -16,6 +15,7 @@ h1 {
   }
   
   button {
+    position: relative;
     padding: 0;
     border: none;
     background:none;
@@ -30,4 +30,10 @@ button:hover {
 color: #99D758;
 }
 
-
+Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
