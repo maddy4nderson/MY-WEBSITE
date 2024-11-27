@@ -6,7 +6,13 @@ h1 {
     font-size: 70px;
 }
 
-button {
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  button {
     padding: 0;
     border: none;
     background:none;
@@ -14,5 +20,10 @@ button {
     font-weight: 600;
     font-style: normal;
     font-size:16px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+button:hover {
+color: #99D758;
+}
+
+
