@@ -4,6 +4,9 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 70px;
+    color: #D9326F;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 2px;
 }
 
 .flex-container {
@@ -19,7 +22,8 @@ h1 {
     font-family: "forma-djr-display", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size:16px;
+    font-size:22px;
+    color: white;
 }
 
 button:hover {
