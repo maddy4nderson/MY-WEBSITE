@@ -39,11 +39,13 @@ Video {
     min-height: 100%;
 }
 
-p {
-position: relative;
-color: white;   
-font-family: "forma-djr-display", sans-serif;
-font-weight: 600;
-font-style: normal; 
-font-size: 14px;
+.me {
+    position: relative;
+    text-align: center;
+    color: white;   
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 14px;
 }
+
