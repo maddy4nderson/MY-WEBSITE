@@ -41,6 +41,7 @@ Video {
 }
 
 .me {
+    display: flex;
     position: relative;
     text-align: center;
     color: white;   
@@ -50,7 +51,7 @@ Video {
     font-size: 18px;
     margin: auto;
     padding: 13% 0;
-    width: 75%;
+    width: 60%;
     height: 100%;
     flex-direction: column;
 }
