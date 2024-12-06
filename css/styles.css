@@ -57,13 +57,14 @@ Video {
 }
 
 .section-one {
+    background: none;
     display:flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-left: 15%;
     vertical-align: middle;
     align-items: left;
-    height:
+
 }
 
 .posters {
