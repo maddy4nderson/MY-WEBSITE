@@ -57,18 +57,29 @@ Video {
 }
 
 .section-one {
-    background: none;
-    display:flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding-left: 30px;
-    vertical-align: middle;
-    align-items: left;
+   content:"";
+   clear: both;
+   display: table;
 }
 
 .posters {
-    padding:10%;
-    min-width: 150px;
-    max-width: 400px;
+    float: left;
+    width: 25%;
+    padding: 5px;
 }
 
+.caption {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:22px;
+    color: white;
+}
+
+.hposter {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:34px;
+    color: white;
+}
