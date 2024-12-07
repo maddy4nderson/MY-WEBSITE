@@ -57,14 +57,22 @@ Video {
 }
 
 .section-one {
-   display:flex;
-   align-items: center;
-   justify-content: center;
+    padding: 20px;
+    display: flex;
+    height: auto;
+    flex: 1 1 auto;
+    text-align: center;
 }
 
 .posters {
-   flex: 25%;
-   padding: 80px;
+    width:100%;
+}
+
+
+.posters img {
+    width: 100%;
+    border: 3px;
+    padding:5px;
 }
 
 .caption {
@@ -82,3 +90,13 @@ Video {
     font-size:34px;
     color: white;
     }
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:10px;
+    color: white; 
+}
