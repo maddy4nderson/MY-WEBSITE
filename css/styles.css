@@ -77,6 +77,23 @@ Video {
     margin: 5px;
 }
 
+.posters img {
+    width: 100%;
+    border: 3px;
+    padding:5px;
+}
+
+.cposters {
+    width:100%;
+    margin: 5px;
+}
+
+.cposters img {
+    width: 50%;
+    border: 3px;
+    padding:5px;
+}
+
 .section-typo2 {
     padding: 20px;
     display: flex;
@@ -85,11 +102,7 @@ Video {
     text-align: center;
 }
 
-.posters img {
-    width: 100%;
-    border: 3px;
-    padding:5px;
-}
+
 
 .caption {
     font-family: "forma-djr-display", sans-serif;
