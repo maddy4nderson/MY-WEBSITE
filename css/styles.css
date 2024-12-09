@@ -83,6 +83,155 @@ Video {
     padding:5px;
 }
 
+.container {
+    position: relative;
+    width:100%;
+    margin:5px;
+}
+
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #be199d;
+    padding: 16px 32px;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:16px;
+    color: white;
+  }
+
+
+/*
+.tposters {
+    width:50%;
+    position: relative;
+    margin: 5px;
+}
+
+
+
+.tposters:hover .description {
+    opacity: 1;
+}
+.tposters:hover img {
+    width: 100%;
+    border: 3px;
+    padding:5px;
+    opacity: 0.3;
+}
+
+.tposters img {
+    width: 100%;
+    border: 3px;
+    padding:5px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+/*
+.typotitle {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:34px;
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.middle {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.typotitle {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:34px;
+    color: white;
+    }
+
+
+.description {
+
+   
+    background-color: #c252a2;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:16px;
+    color: white;
+    
+
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:34px;
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+*/
+
+.typotitle {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:34px;
+    color: white;
+    }
+
 .cposters {
     width:100%;
     margin: 5px;
