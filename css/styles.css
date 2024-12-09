@@ -77,6 +77,13 @@ Video {
     margin: 5px;
 }
 
+.section-typo2 {
+    padding: 20px;
+    display: flex;
+    height: auto;
+    flex: 1 1 auto;
+    text-align: center;
+}
 
 .posters img {
     width: 100%;
