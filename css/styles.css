@@ -64,6 +64,14 @@ Video {
     text-align: center;
 }
 
+.section-two {
+    padding: 20px;
+    display: flex;
+    height: auto;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
 .section-typo {
     padding: 20px;
     display: flex;
