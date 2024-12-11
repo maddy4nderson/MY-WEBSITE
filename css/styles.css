@@ -101,6 +101,7 @@ a {
 
 .bigcaption {
     background-color: black;
+    border-radius: 3%;
     padding: 16px 32px;
     font-family: "forma-djr-display", sans-serif;
     font-weight: 600;
