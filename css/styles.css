@@ -88,6 +88,16 @@ Video {
     text-align: center;
 }
 
+.bigcaption {
+    background-color: black;
+    padding: 16px 32px;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:24px;
+    color: white;
+}
+
 
 .section-typo {
     padding: 20px;
@@ -293,6 +303,14 @@ h2 {
     font-size:16px;
     color: white;
 }
+
+.codingheading {
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:50px;
+    color: white;
+    }
 
 .hposter {
     font-family: "forma-djr-display", sans-serif;
