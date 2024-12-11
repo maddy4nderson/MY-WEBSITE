@@ -64,6 +64,7 @@ a {
     font-style: normal;
     font-size:18px;
     color: white;
+    
 }
 
 .section-one {
@@ -126,6 +127,7 @@ a {
     width: 100%;
     border: 3px;
     padding:5px;
+    border-radius: 2%;
 }
 
 .container {
@@ -294,6 +296,7 @@ h2 {
     width: 50%;
     border: 3px;
     padding:5px;
+    border-radius: 4%;
 }
 
 .section-typo2 {
